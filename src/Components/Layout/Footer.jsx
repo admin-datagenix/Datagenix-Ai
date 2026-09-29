@@ -287,21 +287,22 @@ export default function Footer() {
                 )}
               </span>
             ))}
-          </div>
+          </div>  
 
           <p
             className="text-[rgba(255,255,255,1)] text-[0.72rem] text-center sm:text-left"
-            style={{ fontFamily: "'DM Sans',sans-serif" }}
+            style={{ fontFamily: "'DM Sans',sans-serif", color: "#28E7C5" }}
           >
-            Developed and designed by{" "}
-            <a
+             
+            Designed and Developed by <b>DatagenixAi</b>
+            {/* <a
               href="https://www.ikrastudio.in/"
               target="_blank"
               rel="noopener noreferrer"
               className="underline"
             >
               iKRA Studio
-            </a>
+            </a> */}
           </p>
         </div>
       </div>
